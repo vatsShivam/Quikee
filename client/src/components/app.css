@@ -1,0 +1,111 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #students {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #students td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #students tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #students tr:hover {background-color: #ddd;}
+  
+  #students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    
+  }
+  #shivu {
+      display: flex;
+      justify-content: flex-end;
+      margin-top:50px;
+      
+      
+  }
+  #shivu button{
+      background-color: #4CAF50;
+      color:white;
+      border-radius: 4px;
+      margin-right:50px;
+  }
+  
+  #view-coupon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top:50px;
+    
+  }
+  #view-coupon button {
+    background-color: #4CAF50;
+    color:white;
+    border-radius: 5px;
+    margin-right:150px;
+    
+  }
+  #form{
+
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+  }
+#form input{
+  width:400px;
+  margin-top:20px;
+}
+
+#message{
+  display:flex;
+  justify-content: space-between;
+  
+}
+#message p{
+  color:red;
+  margin-top:35px;
+  font-weight:bold;
+  font-size:16px;
+}
+#message button {
+  margin-top:25px;
+  height:40px;
+}
+#user-heading {
+  text-align:center;
+  margin-top:20px;
+}
+#product {
+  margin:50px;
+}
+#product button{
+background: green;
+color:white;
+}
+#product li {
+  margin-top: 20px;
+}
+#success h4 {
+  text-align: center;
+  margin-top:50px;
+  color:green;
+}
+#success-btn {
+  display:flex;
+  justify-content: center;
+  margin-top:40px;
+}
+.menu{
+  height:500px;
+  color:red;
+}
